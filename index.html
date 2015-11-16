@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="mike" content="width=device-width" />
     <link rel="stylesheet" href="main.css" />
     <title>Fun with Forms</title>
 </head>
@@ -11,12 +12,12 @@
  <div class="wrapper">
      <header class="masterhead">
          <h1>Form</h1>
-         <h2>Please fill out form.</h2>
+         <h2>Please fill out this form.</h2>
      </header>
      
  </div>
  <form action="#" >
-  <div class="box1">
+  <div class="box">
          <label for="name">Name</label>
          <input type = "text" name="name" id="name"
          required
@@ -24,7 +25,7 @@
          placeholder = "Name"
          maxlength = "40"/>
  </div>
- <div class="box2">
+ <div class="box">
          <label for="email">Email</label>
          <input type="email" name="email" id="email"
          required
@@ -32,18 +33,19 @@
          placeholder="Email"
          maxlength="40"/>
  </div> 
-  <div class="box3">
+  <div class="box">
         <label for="url">URL</label>
          <input type="url" name="url" id="url"
          class="med"
          placeholder="URL"/>         
  </div> 
-  <div class="box4">    
+  <div class="box">    
          <label for="password">Password</label>
          <input type="password" name="password" 
          id="password"
          required
          class="med"
+         placeholder="Password"
          maxlength="40"/>
      
  </div>
