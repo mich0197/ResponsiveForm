@@ -11,9 +11,12 @@ html{
     line-height: 3em;
     background-color: rgb(51,153,61);
     color: rgb(25,76,31);
+    background-image: url(img/Ire.jpg);
 }
 label{
     display: none;
+    font-family: sans-serif;
+    
     
 }
 .wrapper{
@@ -25,6 +28,7 @@ label{
     color: 
     
 }
+
 h1{
     font-size: 2.5em;
 }
@@ -51,6 +55,7 @@ input{
 @media (min-width: 35em) and (max-width:60em){
     label{
         display: block;
+        
 }
     .box{
         float: left;
@@ -62,6 +67,7 @@ input{
         display: inline;
         width: 90px;
         float: left;
+        font-size: 1.2rem;
     }
     .box{
         width: 50%;
